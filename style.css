@@ -36,17 +36,18 @@
 
 .div-h2 {
     position: absolute;
-    margin: 0 0 0 330px;
+    margin: 0 0 0 370px;
     padding-top: 10%;
     color: blue;
-    font-size: 2.5em;
+    font-size: 4em;
     line-height: 50px;
     font-family: 'Single Day', cursive;
+    line-height: 100px;
 }
 
 .div-img {
     position: absolute;
-    margin: 0 0 0 520px;
+    margin: 0 0 0 600px;
     width: 60vw;
     margin-top: 10px;
 }
@@ -65,20 +66,20 @@
     position: absolute;
     color: aqua;
     font-weight: bold;
-    margin: 240px 0 0 330px;
-    font-size: 15px;
+    margin: 370px 0 0 370px;
+    font-size: 30px;
 
 }
 
 .div-p__lighter {
     position: absolute;
     font-weight: lighter;
-    margin: 260px 0 0 330px;
+    margin: 400px 0 0 370px;
     font-size: 10px;
 }
 
 .main {
-    margin: 550px 0 0 350px;
+    margin: 660px 0 0 350px;
 }
 
 .main-p {
@@ -89,7 +90,7 @@
 
 .main-p__bold {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 30px;
 }
 
@@ -98,7 +99,7 @@
     border-top: solid 2px black;
     border-bottom: solid 2px black;
     padding-bottom: 30px;
-    width: 70%;
+    width: 85%;
 }
 
 .main-li {
@@ -118,6 +119,7 @@
 
 .article-p {
     margin-top: 100px;
+    padding-top: 90px;
     text-align: center;
     font-family: 'Single Day', cursive;
     color: rgb(174, 0, 41);
@@ -126,22 +128,28 @@
 
 .article-h3 {
     text-align: center;
+    font-size: 30px;
 }
 
 .section {
-    position: relative;
+    background-color: rgb(187, 187, 187);
+    width: 1400px;
+}
+
+.section-div {
+    display: flex;
+    
 }
 
 .section-p {
-    position: absolute;
-    margin: 40px 0 0 190px;
-    line-height: 20px;
+    margin: 40px 0 0 240px;
+    line-height: 33px;
 }
 
 .section-img__margin {
-    float: right;
-    width: 25vw;
-    margin: 30px 250px 0 0;
+    width: 30vw;
+    margin: 30px 0 0 180px;
+    padding-bottom: 100px;
 }
 
 .section-br {
@@ -149,7 +157,7 @@
 }
 
 .section-text-align {
-    margin: 400px 0 0 180px;
+    margin: 100px 0 0 300px;
 }
 
 .section-p__font-family {
@@ -162,12 +170,13 @@
 .section-h3__bold {
     font-weight: bold;
     margin-bottom: 30px;
+    font-size: 30px;
 }
 
 .section-div__grid {
     display: grid;
     grid-template-rows: 250px 250px;
-    grid-template-columns: 3fr 4fr;
+    grid-template-columns: 11fr 12fr;
     margin-right: 100px;
 }
 
@@ -178,7 +187,7 @@
 }
 
 .box1-img {
-    width: 50%;
+    width: 40%;
     padding: 50px 0 0 130px;
 }
 
@@ -190,7 +199,7 @@
 }
 
 .box1-p {
-    padding-left: 30px;
+    padding-left: 10px;
     color: honeydew;
     line-height: 30px;
 }
@@ -204,20 +213,21 @@
 
 .box2-img {
     position: absolute;
-    width: 40%;
+    width: 30%;
+    padding-top: 40px;
 }
 
 .box2-p__bold {
     position: absolute;
     font-weight: bold;
     color: honeydew;
-    padding: 60px 0 0 250px;
+    padding: 60px 0 0 160px;
 }
 
 .box2-p {
     position: absolute;
     color: honeydew;
-    padding: 90px 0 0 250px;
+    padding: 90px 0 0 160px;
     line-height: 35px;
 }
 
@@ -229,31 +239,39 @@
 
 .box3-img {
     position: absolute;
-    width: 40%;
+    width: 30%;
+    padding-top: 40px;
 }
 
 .box3-p__bold {
     position: absolute;
     font-weight: bold;
     color: honeydew;
-    padding: 60px 0 0 250px;
+    padding: 60px 0 0 160px;
 }
 
 .box3-p {
     position: absolute;
     color: honeydew;
-    padding: 90px 0 0 250px;
+    padding: 90px 0 0 160px;
     line-height: 35px;
 }
 
+.section-text-align__justify-content {
+    background-color: rgb(187, 187, 187);
+    width: 1400px;
+    height: 800px;
+}
+
 .section-div__color {
-    margin: 50px 0 0 180px;
+    margin: 80px 0 0 160px;
 }
 
 .section-p__color {
     font-family: 'Single Day', cursive;
     font-size: 10px;
     margin-bottom: 10px;
+    padding-top: 30px;
     color: rgb(174, 0, 41);
 }
 
@@ -271,7 +289,7 @@
 .box4 {
     position: relative;
     background-color: honeydew;
-    width: 420px;
+    width: 630px;
     height: 450px;
     border-radius: 20px;
 }
@@ -293,7 +311,7 @@
 
 .box4-p__bold {
     position: absolute;
-    margin: 230px 0 0 15px;
+    margin: 260px 0 0 15px;
     font-weight: bold;
     line-height: 30px;
     font-size: 18px;
@@ -301,20 +319,20 @@
 
 .box4-p__margin {
     position: absolute;
-    margin: 350px 0 0 10px;
+    margin: 370px 0 0 10px;
     font-weight: lighter;
 }
 
 .box4-p__lighter {
     position: absolute;
-    margin: 350px 0 0 160px;
+    margin: 370px 0 0 160px;
     font-weight: lighter;
 }
 
 .box5 {
     position: relative;
     background-color: honeydew;
-    width: 420px;
+    width: 630px;
     height: 450px;
     border-radius: 20px;
     margin: 0 40px;
@@ -337,7 +355,7 @@
 
 .box5-p__bold {
     position: absolute;
-    margin: 230px 0 0 15px;
+    margin: 260px 0 0 15px;
     font-weight: bold;
     line-height: 30px;
     font-size: 18px;
@@ -345,20 +363,20 @@
 
 .box5-p__margin {
     position: absolute;
-    margin: 350px 0 0 10px;
+    margin: 370px 0 0 10px;
     font-weight: lighter;
 }
 
 .box5-p__lighter {
     position: absolute;
-    margin: 350px 0 0 160px;
+    margin: 370px 0 0 160px;
     font-weight: lighter;
 }
 
 .box6 {
     position: relative;
     background-color: honeydew;
-    width: 420px;
+    width: 630px;
     height: 450px;
     border-radius: 20px;
 }
@@ -380,7 +398,7 @@
 
 .box6-p__bold {
     position: absolute;
-    margin: 230px 0 0 15px;
+    margin: 260px 0 0 15px;
     font-weight: bold;
     line-height: 30px;
     font-size: 18px;
@@ -388,24 +406,29 @@
 
 .box6-p__margin {
     position: absolute;
-    margin: 350px 0 0 10px;
+    margin: 370px 0 0 10px;
     font-weight: lighter;
 }
 
 .box6-p__lighter {
     position: absolute;
-    margin: 350px 0 0 160px;
+    margin: 370px 0 0 160px;
     font-weight: lighter;
 }
 
 .section-div__border {
-    position: absolute;
     border: solid 2px rgb(176, 0, 68) ;
     background-color: aliceblue;
-    border-radius: 30px;
-    margin: 500px 0 0 0;
-    margin-right: 30px;
-    padding: 20px 40px;
+    width: 15%;
+    text-align: center;
+    border-radius: 50px;
+    margin: 40px 0 0 400px;
+    padding: 40px 60px;
+}
+
+.section-p__border {
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .section-p__border {
@@ -413,7 +436,7 @@
 }
 
 .footer {
-    margin: 300px 0 0 300px;
+    margin: 100px 0 0 300px;
 }
 
 .footer-p {
@@ -518,5 +541,8 @@
 .div--small {
     display: block;
     text-align: center;
-    margin: 60px 0;
+    margin-top: 60px;
+    background-color: rgb(187, 187, 187);
+    width: 110%;
+    padding: 40px 0;
 }
