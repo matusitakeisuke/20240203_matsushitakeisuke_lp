@@ -22,6 +22,7 @@
 
 .div-position {
     position: relative;
+    left: 250px;
 }
 
 .div-h2::before {
@@ -36,8 +37,7 @@
 
 .div-h2 {
     position: absolute;
-    margin: 0 0 0 370px;
-    padding-top: 10%;
+    top: 20px;
     color: blue;
     font-size: 4em;
     line-height: 50px;
@@ -47,9 +47,8 @@
 
 .div-img {
     position: absolute;
-    margin: 0 0 0 600px;
     width: 60vw;
-    margin-top: 10px;
+    margin: 10px 0 0 250px;
 }
 
 .div-p::before {
@@ -64,18 +63,19 @@
 
 .div-p {
     position: absolute;
+    top: 250px;
     color: aqua;
     font-weight: bold;
-    margin: 370px 0 0 370px;
-    font-size: 30px;
+    font-size: 20px;
 
 }
 
 .div-p__lighter {
     position: absolute;
+    top: 290px;
     font-weight: lighter;
-    margin: 400px 0 0 370px;
-    font-size: 10px;
+    font-size: 14px;
+    line-height: 25px;
 }
 
 .main {
