@@ -17,12 +17,12 @@
 }
 
 .header-li {
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 .div-position {
     position: relative;
-    left: 250px;
+    left: 350px;
 }
 
 .div-h2::before {
