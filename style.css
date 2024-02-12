@@ -17,8 +17,8 @@
 }
 
 .header-li {
-    margin: 0 20px;
-    font-size: 25px;
+    margin: 0 2vw 0 0;
+    font-size: 2vw;
 }
 
 .div-position {
@@ -41,12 +41,12 @@
     position: absolute;
     display: block;
     text-align: left;
-    top: 100px;
-    left: 330px;
+    top: 5vw;
+    left: 20vw;
     color: blue;
-    font-size: 5em;
+    font-size: 5vw;
     font-family: 'Single Day', cursive;
-    line-height: 100px;
+    line-height: 7vw;
 }
 
 .div-img {
@@ -65,39 +65,39 @@
 
 .div-p {
     position: absolute;
-    top: 340px;
-    left: 330px;
+    top: 22vw;
+    left: 20vw;
     color: aqua;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 2vw;
 
 }
 
 .div-p__lighter {
     position: absolute;
-    top: 400px;
-    left: 330px;
+    top: 26vw;
+    left: 20vw;
     display: block;
     text-align: left;
     font-weight: lighter;
-    font-size: 14px;
-    line-height: 25px;
+    font-size: 1vw;
+    line-height: 1.5vw;
 }
 
 .main {
-    margin: 160px 0 0 300px;
+    margin: 8vw 0 0 20vw;
 }
 
 .main-p {
-    font-size: 10px;
+    font-size: 1.5vw;
     font-family: 'Single Day', cursive;
     color: rgb(174, 0, 41);
 }
 
 .main-p__bold {
     font-weight: bold;
-    font-size: 30px;
-    margin-bottom: 30px;
+    font-size: 1.8vw;
+    margin-bottom: 2vw;
 }
 
 .main-ul {
@@ -105,12 +105,13 @@
     border-top: solid 2px black;
     border-bottom: solid 2px black;
     padding-bottom: 30px;
-    width: 85%;
+    width: 60vw;
 }
 
 .main-li {
     border-bottom: solid 2px black ;
-    padding: 20px 0;
+    padding: 1.5vw 0;
+    font-size: 1vw;
 }
 
 .main-span__border {
@@ -118,9 +119,10 @@
     height: 18px;
     background-color: rgb(189, 0, 44);
     border-radius: 50px;
-    margin: 0 10px;
-    padding: 2px 15px;
+    margin: 0 1vw;
+    padding: 3px 15px;
     color: honeydew;
+    font-size: 1vw;
 }
 
 .article-p {
@@ -129,63 +131,60 @@
     text-align: center;
     font-family: 'Single Day', cursive;
     color: rgb(174, 0, 41);
-    font-size: 10px;
+    font-size: 1vw;
 }
 
 .article-h3 {
     text-align: center;
-    font-size: 30px;
+    font-size: 2vw;
 }
 
 .section {
-    position: relative;
     background-color: rgb(187, 187, 187);
-    width: 1500px;
-    height: 600px;
+    width: 100vw;
+    height: 40vw;
 }
 
 .section-div {
     display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
 }
 
 .section-p {
-    position: absolute;
-    top: 190px;
-    left: 150px;
-    line-height: 40px;
-    font-size: 20px;
+    line-height: 2.5vw;
+    font-size: 1.5vw;
 }
+
 
 .section-img__margin {
-    position: absolute;
     width: 30vw;
-    top: 190px;
-    left: 850px;
-    padding-bottom: 100px;
+    margin-right: 5vw;
 }
 
+
 .section-text-align {
-    margin: 10px 0 0 200px;
+    margin: 1% 0 0 10%;
 }
 
 .section-p__font-family {
     font-family: 'Single Day', cursive;
-    font-size: 10px;
+    font-size: 1vw;
     color: rgb(174, 0, 41);
-    margin: 0 0 10px 10px;
+    margin: 0 0 1% 1%;
 }
 
 .section-h3__bold {
     font-weight: bold;
-    margin-bottom: 30px;
-    font-size: 30px;
+    margin-bottom: 3%;
+    font-size: 2vw;
 }
 
 .section-div__grid {
     display: grid;
-    grid-template-rows: 250px 250px;
+    grid-template-rows: 16vw 16vw;
     grid-template-columns: 5fr 6fr;
-    margin-right: 200px;
+    margin-right: 12vw;
 }
 
 .box1 {
@@ -198,25 +197,26 @@
 .box1-img {
     position: absolute;
     width: 40%;
-    top: 40px;
-    right: 160px;
+    top: 8%;
+    left: 30%;
 }
 
 .box1-p__bold {
     position: absolute;
     color: honeydew;
     font-weight: bold;
-    top: 270px;
-    left: 210px;
-    font-size: 20px;
+    top: 55%;
+    left: 40%;
+    font-size: 1.5vw;
 }
 
 .box1-p {
     position: absolute;
-    top: 320px;
-    left: 60px;
+    top: 65%;
+    left: 15%;
     color: honeydew;
-    line-height: 30px;
+    line-height: 2vw;
+    font-size: 1vw;
 }
 
 .box2 {
@@ -236,16 +236,17 @@
     position: absolute;
     font-weight: bold;
     color: honeydew;
-    top: 60px;
-    left: 230px;
+    top: 20%;
+    left: 37%;
 }
 
 .box2-p {
     position: absolute;
     color: honeydew;
-    top: 90px;
-    left: 230px;
-    line-height: 35px;
+    top: 35%;
+    left: 37%;
+    line-height: 2.5vw;
+    font-size: 1vw;
 }
 
 .box3 {
@@ -264,34 +265,37 @@
     position: absolute;
     font-weight: bold;
     color: honeydew;
-    top: 60px;
-    left: 230px;
+    top: 20%;
+    left: 37%;
 }
 
 .box3-p {
     position: absolute;
     color: honeydew;
-    top: 90px;
-    left: 230px;
-    line-height: 35px;
+    top: 35%;
+    left: 37%;
+    line-height: 2.5vw;
+    font-size: 1vw;
 }
 
 .section-text-align__justify-content {
     background-color: rgb(187, 187, 187);
-    width: 1500px;
-    height: 700px;
+    width: 100%;
+    height: 60vw;
 }
 
 .section-div__color {
-    margin: 100px 0 0 30px;
+    margin-top: 5%;
 }
 
 .section-h3__font-size {
-    margin-left: 190px;
+    margin-left: 10%;
+    font-size: 1vw;
 }
 
 .section-p__color {
-    margin-left: 190px;
+    margin-left: 12%;
+    font-size: 1vw;
 }
 
 .section-p__color {
@@ -310,19 +314,21 @@
 .section-div__justify-content {
     display: flex;
     justify-content: center;
+    margin: 0 1vw;
 }
 
 .box4 {
     position: relative;
     background-color: honeydew;
-    width: 350px;
-    height: 400px;
+    width: 23vw;
+    height: 28vw;
     border-radius: 20px;
 }
 
 .box4-img__width {
     position: absolute;
     width: 100%;
+    height: auto;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
 }
@@ -337,36 +343,36 @@
 
 .box4-p__bold {
     position: absolute;
-    left: 30px;
-    top: 260px;
+    left: 7%;
+    top: 64%;
     font-weight: bold;
-    line-height: 30px;
-    font-size: 20px;
+    line-height: 2vw;
+    font-size: 1.3vw;
 }
 
 .box4-p__margin {
     position: absolute;
-    top: 350px;
-    left: 30px;
-    font-size: 17px;
+    top: 86%;
+    left: 7%;
+    font-size: 1.2vw;
     font-weight: lighter;
 }
 
 .box4-p__lighter {
     position: absolute;
-    top: 350px;
-    left: 200px;
-    font-size: 17px;
+    top: 86%;
+    left: 50%;
+    font-size: 1.2vw;
     font-weight: lighter;
 }
 
 .box5 {
     position: relative;
     background-color: honeydew;
-    width: 350px;
-    height: 400px;
+    width: 23vw;
+    height: 28vw;
     border-radius: 20px;
-    margin: 0 20px;
+    margin: 0 5%;
 }
 
 .box5-img__width {
@@ -386,34 +392,34 @@
 
 .box5-p__bold {
     position: absolute;
-    left: 30px;
-    top: 260px;
+    left: 7%;
+    top: 64%;
     font-weight: bold;
-    line-height: 30px;
-    font-size: 20px;
+    line-height: 2vw;
+    font-size: 1.3vw;
 }
 
 .box5-p__margin {
     position: absolute;
-    top: 350px;
-    left: 30px;
-    font-size: 17px;
+    top: 86%;
+    left: 7%;
+    font-size: 1.2vw;
     font-weight: lighter;
 }
 
 .box5-p__lighter {
     position: absolute;
-    top: 350px;
-    left: 200px;
-    font-size: 17px;
+    top: 86%;
+    left: 50%;
+    font-size: 1.2vw;
     font-weight: lighter;
 }
 
 .box6 {
     position: relative;
     background-color: honeydew;
-    width: 350px;
-    height: 400px;
+    width: 23vw;
+    height: 28vw;
     border-radius: 20px;
 }
 
@@ -434,26 +440,26 @@
 
 .box6-p__bold {
     position: absolute;
-    left: 30px;
-    top: 260px;
+    left: 7%;
+    top: 64%;
     font-weight: bold;
-    line-height: 30px;
-    font-size: 20px;
+    line-height: 2vw;
+    font-size: 1.3vw;
 }
 
 .box6-p__margin {
     position: absolute;
-    top: 350px;
-    left: 30px;
-    font-size: 17px;
+    top: 86%;
+    left: 7%;
+    font-size: 1.2vw;
     font-weight: lighter;
 }
 
 .box6-p__lighter {
     position: absolute;
-    top: 350px;
-    left: 200px;
-    font-size: 17px;
+    top: 86%;
+    left: 50%;
+    font-size: 1.2vw;
     font-weight: lighter;
 }
 
@@ -462,14 +468,14 @@
     background-color: aliceblue;
     width: 15%;
     text-align: center;
-    border-radius: 50px;
-    margin: 40px 0 0 570px;
-    padding: 40px 40px;
+    border-radius: 20vw;
+    margin: 5% 0 0 39%;
+    padding: 3% 4%;
 }
 
 .section-p__border {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
 .section-p__border {
@@ -477,24 +483,24 @@
 }
 
 .footer {
-    margin: 100px 0 0 350px;
+    margin: 10vw 0 0 20vw;
 }
 
 .footer-p {
-    margin-bottom: 10px;
-    font-size: 10px;
+    margin-bottom: 1vw;
+    font-size: 1vw;
     font-family: 'Single Day', cursive;
     color: rgb(176, 0, 68);
 }
 
 .footer-h3 {
-    font-size: 30px;
+    font-size: 2vw;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 3vw;
 }
 
 .table-th {
-    width: 200px;
+    width: 15vw;
     font-weight: bold;
     background-color: #dedede;
 }
@@ -502,17 +508,18 @@
 .table-th,
 .table-td {
     border: solid 1px black;
-    padding: 20px 0 20px 10px;
+    padding: 1.5vw 0 1.5vw 1vw;
     text-align: left;
+    font-size: 1vw;
 }
 
 .table-td {
-    width: 550px;
+    width: 45vw;
 }
 
 .footer-div__flex {
     display: flex;
-    margin-top: 100px;
+    margin-top: 10vw;
 }
 
 .footer-div__left {
@@ -526,8 +533,9 @@
 .footer-h3__left {
     position: absolute;
     color: honeydew;
-    padding: 130px 280px;
-    font-size: 30px;
+    top: 43%;
+    left: 40%;
+    font-size: 2.5vw;
 }
 
 .footer-div__right {
@@ -541,17 +549,19 @@
 .footer-h3__right {
     position: absolute;
     color: honeydew;
-    padding: 130px 220px;
-    font-size: 30px;
+    top: 43%;
+    left: 30%;
+    font-size: 2.5vw;
 }
 
 .div--class {
-    margin-top: 80px;
+    margin-top: 5vw;
 }
 
 .div--p {
     display: block;
     text-align: center;
+    font-size: 1.5vw;
 }
 
 .div--background-color {
@@ -559,15 +569,15 @@
     height: 40px;
     background-color: rgb(152, 0, 68);
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 1vw;
 }
 
 .div--border {
     background: linear-gradient(90deg,#ff1a6f,#990033);
     margin: 0 auto;
     margin-top: 10px;
-    width: 300px;
-    height: 80px;
+    width: 20vw;
+    height: 5vw;
     border-radius: 40px;
     border-bottom: solid 8px #990033;
 }
@@ -582,16 +592,17 @@
 }
 
 .div--p__padding {
-    padding: 30px 0 0 20px;
-    font-size: 20px;
+    padding: 1.8vw 0 0 1.5vw;
+    font-size: 1.5vw;
     color: honeydew;
 }
 
 .div--small {
     display: block;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 3vw;
     background-color: rgb(187, 187, 187);
     width: 100%;
-    padding: 40px 0;
+    padding: 2vw 0;
+    font-size: 1.2vw;
 }
